@@ -1,0 +1,201 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Tourisom Website</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+    <h1>Welcome to Tourisom</h1> 
+    <center> 
+        <img src="/C:\Users\GAYTRI\Downloads\10062025043034_blog_image.jpg" alt="images" width="500"> 
+    </center> 
+    <p style="font-size: 20px;">India is land of diversity, culture, heritage, and natural beuty. 
+        this website provide information about popular tourisom destinations and travel Packages. 
+    </p> 
+    <table border="1" cellpadding="10" width="60" align="center"> 
+        <tr> 
+            <th>Menu</th> 
+            <th>Page Link</th> 
+        </tr> 
+        <tr> 
+           <td>Tourisom Destinations</td> 
+<td><a href="destination.html">View Destinations</a></td> 
+    </tr> 
+    <tr> 
+        <td>Tour Packages</td> 
+            <td><a href="package.html">View Packages</a></td> 
+        </tr> 
+        <tr> 
+            <td>Contact Us</td> 
+            <td><a href="contact.html">Contact Details</a></td> 
+        </tr> 
+    </table> 
+</body> 
+</html> 
+ 
+Inline css 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Tourisom Destinations</title> 
+</head> 
+<body > 
+    <h1 style="color:darkblue; text-align:center;">Popular Tourisom Destinations</h1> 
+    <table border="1"         style="border:2px solid black; width:60%; margin: auto; border-collapse: collapse; font-size: 20px;"> 
+       <tr> 
+    	<th style="background-color: lightgray;">state</th> 
+            <th style="background-color: lightgray;">Place</th> 
+            <th style="background-color: lightgray;">Famous For</th> 
+        </tr> 
+        <tr> 
+            <td>Uttar Pradesh</td> 
+            <td>Taj Mahal</td> 
+            <td>Symbloe of Love</td> 
+ 
+        </tr> 
+        <tr> 
+            <td>Rajasthan</td> 
+            <td>Jaipu</td> 
+            <td>Traditionla Culture</td> 
+        </tr> 
+        </tr> 
+        <tr> 
+            <td>Maharashtra</td> 
+            <td>Shirdi</td> 
+            <td>Sai baba Temle</td> 
+        </tr> 
+        </tr> 
+        <tr> 
+            <td>Maharashtra</td> 
+            <td>Ajanta Cavese</td> 
+            <td>Buddhist Paintings</td> 
+       </tr> 
+       <tr> 
+<td>Gujarat</td>         <td>Kutch</td> 
+        <td>Rann Utsav</td> 
+    </tr> 
+        <tr> 
+            <td>Tami Nadu</td> 
+            <td>Rameshwaram</td> 
+            <td>Jyotirlinga</td> 
+        </tr> 
+        <tr> 
+            <td>Delhi</td> 
+            <td>Red Fort</td> 
+            <td>Mughal Archetechure</td> 
+        </tr> 
+        <tr> 
+            <td>Punjab</td> 
+            <td>Amritsar</td> 
+            <td>Golden Temple</td> 
+        </tr> 
+        <tr> 
+            <td>Andhra Pradesh</td> 
+            <td>Tirupati</td> 
+            <td>Loard Venkateshwar</td> 
+        </tr> 
+    </table> 
+    <br> 
+    <center><a href="home.html">Back to Home</a></center> 
+</body> 
+</html> 
+ 
+Internal CSS  
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Tour Packages</title> 
+    <style>         body {             font-family: Arial; 
+        } 
+ h1 {             color: green;             text-align: center; 
+        } 
+table {             width: 60%;             margin: auto;             border-collapse: collapse; 
+        } 
+ Th, td {             border: 2px solid black;             padding: 10px;             text-align: center; 
+       } 
+    th { 
+        background-color: lightblue; 
+    } 
+</style> 
+</head> 
+<body> 
+    <h1>Available Tour Packages</h1> 
+    <table> 
+        <tr> 
+            <th>Package Name</th> 
+            <th>Destinations</th> 
+            <th>Duration</th> 
+            <th>Price</th> 
+        </tr> 
+        <tr> 
+            <td>Heritage Tour</td> 
+            <td>Uttar Pradesh</td> 
+            <td>5 days/ 4 Nights</td> 
+            <td>rup 30,000</td> 
+        </tr> 
+        <tr> 
+            <td>Beach</td> 
+            <td>Goa</td> 
+            <td>3 days/ 2 Night</td> 
+            <td> rup 15,000</td> 
+        </tr> 
+       <tr> 
+           <td>Golden Triangle</td>         <td>Delhi-Agra-Jaipur</td> 
+        <td>6 days </td> 
+        <td> rup 50,000</td> 
+    </tr> 
+        <tr> 
+            <td>South Special</td> 
+            <td>Kerala</td> 
+            <td>4 days</td> 
+            <td> rup 22,000</td> 
+        </tr> 
+    </table> 
+    <br> 
+    <center><a href="home.html"> Go Back to Home</a></center> 
+</body> 
+</html> 
+ 
+External CSS 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+   <h1>Contact & Support</h1> 
+   <p class="info">For booking and inqires, contact us using details below.</p> <table> 
+    <tr> 
+        <th>Type</th> 
+        <th>Details</th> 
+        </tr> 
+        <tr> 
+            <td>official address</td> 
+            <td>Pune, Maharashtra</td> 
+        </tr> 
+        <tr> 
+            <td>Email</td> 
+            <td>india.tourism@gmail.com</td> 
+        </tr> 
+        <tr> 
+            <td>Phone</td> 
+            <td>XXXXXXXX20</td> 
+        </tr> 
+        <tr> 
+            <td>Working hours</td> 
+            <td>10 AM - 6 PM</td> 
+        </tr> 
+    </table> 
+    <br> 
+    <center><a href="home.html">Back to Home Page</center> 
+</body> 
+</html> 

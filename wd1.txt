@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html lang="eng"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=divice width , initial-scale"> 
+    <title>personal information</title> 
+<body> 
+    <pre><h1><b>                PERSONAL INFORMATION</b></h1></pre> 
+    <hr> 
+    <p style="font-size: 22px;"><b>Name:</b>kasle krishna</p> 
+    <p style="font-size: 22px;"><b>Roll No:</b>665</p> 
+    <p style="font-size: 22px;"><b>Course:</b>Bachelor of Computer Engineering </p> 
+    <p style="font-size: 22px;"><b>Institute:</b>PREC Loni</p> 
+    <p style="font-size: 22px;"><b>University:</b>Savitribai Phule Pune University(SPPU)</p> 
+    <p style="font-size: 22px;"><b>Accademic Year:</b>Second Year</p> 
+    <p style="font-size: 22px;"><b>Email:</b>krishna@gmai.com</p> 
+    <p style="font-size: 22px;"><b>Contact Number:</b>XXXXXXXX51</p> 
+    </hr> 
+    <hr> 
+    <pre><p style="font-size: 22px;"><b>Career Objective:</b>To become a skilled software engineer and bulild                   innovative application</p></pre> 
+    <p style="font-size: 22px;"><b>Technical Skill:</b> 
+    <ul style="font-size: 22px;"> 
+        <li>C Programming</li> 
+<li>C++ Programming</li> 
+        <li>HTML</li> 
+        <li>CSS</li> 
+        <li>Python Programming</li> 
+    </ul> 
+    </p> 
+    <p style="font-size: 22px;"><b>Soft Skills:</b>Communication skill, Team Management, Leadership</p> 
+    <p style="font-size: 22px;"><b>Arae of interest:</b>Web Development, Programming</p> 
+    </hr> 
+    <hr> 
+    <p style="font-size: 22px;"><b>Hobbies:</b></p> 
+    <ul style="font-size: 22px;"> 
+        <li>Readding</li> 
+        <li>Learning New Technology</li> 
+        <li>Music</li> 
+    </ul> 
+</body> 
+</html> 

@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+</head> 
+<body> 
+    <img src="\Users\GAYTRI\OneDrive\画像\prec.jpg" alt="prec" style="position: absolute; top:10px; left:370px;"         width="120px"> 
+    <center> 
+        <pre> 
+    <h3 style = 'color: rgb(148, 3, 3)'><b>LOKNETE DR. BALASAHEB VIKHE PATIL 
+    (PADAM BHUSHAN AWAR)</b> 
+    </h3></pre> 
+        <h2><b>Pravara Rular Engineering college, Loni</h2> 
+        <img src="\Users\KRISHNA\OneDrive\ドキュメント\download.jpg" alt="download" height="300"> 
+    </center> 
+    <br> 
+    <a href="https://pravaraengg.org.in/">college Website</a></br> 
+    <br> 
+    <a href="https://www.unipune.ac.in/">Visite Official Website SPPU</a> 
+    </br> 
+    <br> 
+    <table border="1" cellpadding="6"> 
+        <tr> 
+            <th>College Name</th> 
+            <th>PREC , Loni</th> 
+        </tr> 
+        <tr> 
+            <th>Location</th> 
+            <td>Loni, Maharashtra</td> 
+        </tr> 
+        <tr> 
+            <th>Deparment</th> 
+            <th>Intake</th> 
+        </tr> 
+        <tr> 
+            <td>Computer Engineering</td> 
+            <td>120</td> 
+        </tr> 
+        <tr> 
+            <td>Information Tachnology</td> 
+            <td>120</td> 
+        </tr> 
+        <tr> 
+            <td>AIDS</td> 
+            <td>60</td> 
+        </tr> 
+        <tr> 
+            <td>Electronics and Computer</td> 
+            <td>60</td> 
+        </tr> 
+        <tr> 
+            <td>ETC</td> 
+            <td>60</td> 
+        </tr> 
+        <tr> 
+            <td>Mechanical</td> 
+            <td>60</td> 
+        </tr> 
+        <tr> 
+            <td>Civil</td> 
+            <td>60</td> 
+        </tr> 
+        <tr> 
+            <td>Atomation and Robotics</td> 
+            <td>60</td> 
+        </tr> 
+ 
+    </table></br> 
+</body> 
+</html> 
+ 
