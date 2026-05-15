@@ -1,0 +1,35 @@
+!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>DOM Dynamic Web Page</title> 
+    <style>         body {             font-family: Arial; 
+        }   .box { 
+            border: 1px solid black;             padding: 10px;             margin-top: 10px; 
+       } .item {             padding: 5px;             margin: 5px;             background: lightblue; 
+        } 
+    </style> 
+</head> 
+<body> 
+  <h2 id="heading">Dynamic Content using DOM</h2> 
+    <input type="text" id="inputText" placeholder="Enter text"> 
+    <button onclick="addItem()">Add</button> 
+    <button onclick="changeHeading()">Change Heading</button> 
+    <button onclick="removeItem()">Remove Last</button> 
+   <button onclick="clearAll()">Clear All</button> 
+    <div id="container" class="box"></div> 
+    <script>         function addItem() {             let text = document.getElementById("inputText").value;             if (text === "") {                 alert("Please enter some text");                 return; 
+            } 
+            let div = document.createElement("div");             div.className = "item";             div.innerHTML = text;             document.getElementById("container").appendChild(div);             document.getElementById("inputText").value = ""; 
+        } 
+        function changeHeading() {             document.getElementById("heading").innerHTML = "Heading Changed!"; 
+        } 
+        function removeItem() {             let container = document.getElementById("container");             if (container.lastChild) {                 container.removeChild(container.lastChild); 
+            } else { 
+                alert("No items to remove"); 
+            } 
+        } 
+        function clearAll() {             document.getElementById("container").innerHTML = "";        } 
+    </script> 
+</body> 
+</html> 
